@@ -3,8 +3,6 @@ import json
 import sys
 from datetime import datetime
 
-
-
 def main():
   print ("Welcome to Travel Planner!")
   UserEmail=input("Enter your email address:" )
@@ -27,7 +25,6 @@ def getCity():
     getCity() 
   return checkAirportCodeResult
   return InputCity
-
 
 def getArrivalDate():
   InputArrival= (input("What day are you arriving? (YYYY-MM-DD)\n"))
